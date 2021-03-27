@@ -1,4 +1,4 @@
-const quote_url = 'http://api.quotable.io/random'
+const quote_url = 'https://api.quotable.io/random'
 const quote_display = document.getElementById('quote')
 let written = []
 let start = true
