@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+
+body, .quote-input {
+	font-family: 'Garamond', 'serif';
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	margin: 0;
+	background-color: #b5ffdc;
+}
+
+.container {
+	background-color: #ffbfb5;
+	border-radius: .5rem;
+	padding: 1.2rem;
+	padding-left: 1.5rem;
+	margin-top: 4rem;
+}
+
+#wpm {
+	float: left;
+	font-size: 4rem;
+	color: #ffbfb5;
+	font-weight: bold;
+}
+
+#acc {
+	float: right;
+	font-size: 4rem;
+	color: #ffbfb5;
+	font-weight: bold;
+}
+
+#quote {
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.correct {
+	color: green;
+}
+
+.incorrect {
+	color: red;
+	text-decoration: underline;
+}
+
+#continue {
+	text-align: center;
+	font-size: 4rem;
+	color: #ffbfb5;
+	font-weight: bold;
+}
+
+#obal {
+	width: 700px;
+	max-width: 90%;
+	margin-top: 35vh;
+}
+
+.hidden {
+	display: none;
+}
+
+.fadeIn {
+animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
